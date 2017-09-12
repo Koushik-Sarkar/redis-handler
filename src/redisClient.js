@@ -1,5 +1,5 @@
 import redis from 'redis';
-import { logger } from 'pwc-us-agc-logger';
+import { logger } from 'logger-handler';
 
 class Client {
   constructor() {

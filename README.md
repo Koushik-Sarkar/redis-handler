@@ -3,7 +3,7 @@ Store, retrieve and remove from redis easily
 
 To use this lib below is mandetory
 =====================================
-import Redis from 'pwc-us-agc-redis-handler';
+import Redis from 'redis-handler';
 
 const redis = new Redis('portno', 'host');
 

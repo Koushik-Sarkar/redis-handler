@@ -1,12 +1,16 @@
 {
   "name": "redis-handler",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Handling redis cache",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rmdir /s /q lib",
     "build": "npm run clean && babel ./src --ignore node_modules,.git,.babelrc,bin,lib -d ./lib",
     "start": "npm run build && node ./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Koushik-Sarkar/redis-handler.git"
   },
   "author": "Koushik Sarkar",
   "license": "ISC",
@@ -15,7 +19,7 @@
     "dotenv": "^4.0.0",
     "winston": "^2.3.1",
     "http-status": "^1.0.1",
-    "pwc-us-agc-logger":"^1.0.5"
+    "logger-handler":"^1.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

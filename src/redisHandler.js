@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-import { log } from 'pwc-us-agc-logger';
+import { log } from 'logger-handler';
 import status from 'http-status';
 import Client from './redisClient';
 
