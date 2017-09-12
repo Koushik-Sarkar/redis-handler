@@ -1,5 +1,5 @@
 # redis-handler
-Store, retrieve and remove from redis easily 
+Store, retrieve and remove from redis easily with automatically logging happen in console.
 
 To use this lib below is mandetory
 =====================================
@@ -16,10 +16,10 @@ To store data in cache:
  
  NOTE: then and catch are optional as logs are handled by lib itself
  
- To Retrive data from cache:
+ To Retrieve data from cache:
  =============================
  
- redis.retrive('Key')
+ redis.retrieve('Key')
         .then(data => console.log(data))
         .catch(err => console.log(err));
 

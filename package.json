@@ -1,6 +1,6 @@
 {
   "name": "redis-handler",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Handling redis cache",
   "main": "lib/index.js",
   "scripts": {
